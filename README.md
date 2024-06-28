@@ -1,5 +1,5 @@
 # Pluto-Healthcare-Chatbot
-A healthcare chatbot which aims to analyze symptoms, provide information about diseases and suggest medicines for treatment. 
+A healthcare chatbot which aims to **analyze symptoms**, provide **information about diseases** and **suggest medicines for treatment**. 
 
 This chatbot has been specifically built for analyzing symptoms of various diseases,
 extracting and accessing valuable information about diseases, including signs &
@@ -29,6 +29,7 @@ Language Processing (NLP) was used to preprocess the data, and essential
 keywords were extracted from the conversations. The snapshot below shows
 the word cloud with the most commonly occurring words in the conversations
 of the dataset.
+
 ![Screenshot (410)](https://github.com/parth9504/Pluto-Healthcare-Chatbot/assets/127659489/9f891b3d-3b39-484a-88e9-8699c16992b1)
 
 
@@ -44,7 +45,7 @@ was 98.3%.
 
 2) **Access Information about Diseases**: This section allows users to access
 information about any disease. For this, the Wikipedia module available in Python
-was used. Wikipedia is a Python library that makes it easy to access and parse data
+was used. **Wikipedia Module** is a Python library that makes it easy to access and parse data
 from Wikipedia. This provides a very convenient way to view specific sections of the
 Wikipedia page, search for articles, get summaries, and fetch other details about
 Wikipedia pages programmatically. When the user enters a search query (name of a
@@ -52,7 +53,7 @@ disease or a symptom), the possible search results are displayed, and post the
 selections, the available sections on the Wikipedia page are shown, making it easier
 for the user to access information quickly with just a click of a button.
 
-More information about the Python module:[Wikipedia package on PyPI](https://pypi.org/project/wikipedia/)
+**More information about the Python module:** [Wikipedia package on PyPI](https://pypi.org/project/wikipedia/)
 
 
 3) **Medicinal Information**: This section provides users with medicinal data, where
@@ -70,13 +71,13 @@ underlying data distribution. The model is often referred to as K-Nearest Neighb
 
 
 The GUI of the chatbot was built using Streamlit, which provides multiple features to
-create chatbots. Streamlit provides a few commands to build conversational apps.
+create chatbots conveniently.
 These chat elements are designed to be used in conjunction with each other, but
 they can also be used separately.
 
-You can refer to this link to read the documentation of Streamlit: [Streamlit](https://docs.streamlit.io/develop/api-reference/chat)
+**You can refer to this link to read the documentation of Streamlit:** [Streamlit](https://docs.streamlit.io/develop/api-reference/chat)
 
-The screenshots attached below demonstrate the working of the chatbot
+**The screenshots attached below demonstrate the working of the chatbot**
 
 ![Screenshot (418)](https://github.com/parth9504/Pluto-Healthcare-Chatbot/assets/127659489/b39b200c-19ee-4084-9daf-2d6270053325)
 
@@ -91,6 +92,7 @@ The screenshots attached below demonstrate the working of the chatbot
 
 
 ![Screenshot (422)](https://github.com/parth9504/Pluto-Healthcare-Chatbot/assets/127659489/4b64d791-8a50-4884-b5de-761a39f16c4f)
+
 
 ![Screenshot (423)](https://github.com/parth9504/Pluto-Healthcare-Chatbot/assets/127659489/f8b19e33-dc69-4f91-a7f3-ffd06a098e28)
 
