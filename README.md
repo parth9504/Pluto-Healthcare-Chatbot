@@ -9,6 +9,8 @@ The idea here is to provide the users with a relatively faster conversation expe
 where they wouldn’t have to spend a lot of time on typing messages for the chatbot,
 rather would get the things done by just selecting an option and only providing the
 relevant information.
+
+
 I would like to mention here that for this project, I haven’t used specific healthcare
 APIs or datasets like MIMIC-III. As a result, it might not appear as a
 very optimal and efficient way of designing a chatbot, especially for a field like
@@ -16,6 +18,7 @@ healthcare where accurate predictions play a crucial role. However, I have desig
 this project to get started and explore the ways of creating chatbots from scratch,
 using traditional machine learning algorithms along with natural language processing
 and other Python-based libraries.
+
 
 **Project Overview**
 
@@ -95,4 +98,10 @@ they can also be used separately.
 
 
 ![Screenshot (423)](https://github.com/parth9504/Pluto-Healthcare-Chatbot/assets/127659489/f8b19e33-dc69-4f91-a7f3-ffd06a098e28)
+
+
+**Here is a detailed video demonstration**
+
+
+https://github.com/parth9504/Pluto-Healthcare-Chatbot/assets/127659489/062eddf3-09fb-40bb-80b2-183d27f06df2
 
