@@ -19,21 +19,19 @@ import joblib
 
 
 # Load the voting classifier
-with open("voting_classifier.pkl", "rb") as f:
+with open("Pickle Files/voting_classifier.pkl", "rb") as f:
     voting_classifier = pickle.load(f)
 
 # Load the label encoder
-with open("label_encoder.pkl", "rb") as f:
+with open("Pickle Files/label_encoder.pkl", "rb") as f:
     label_encoder = pickle.load(f)
 
 # Load the TF-IDF vectorizer
-with open("tfidf_vectorizer.pkl", "rb") as f:
+with open("Pickle Files/tfidf_vectorizer.pkl", "rb") as f:
     tfidf_vectorizer = pickle.load(f)
 
-df_medicine = pd.read_csv(
-    r"C:\Users\User\Desktop\Ccoder\4Sem\Medicine_Details.csv")
-df_details = pd.read_csv(
-    r"C:\Users\User\Desktop\Ccoder\4Sem\Disease_Description.csv")
+df_medicine = pd.read_csv("Datasets/Medicine_Details.csv")
+df_details = pd.read_csv("Datasets/Disease_Description.csv")
 
 
 def preprocess_text(text):
@@ -240,7 +238,7 @@ def main():
             append_assistant("Enter your symptoms")
             append_user(symptoms)
             loaded_tfidf_vectorizer, loaded_nn_model = load_models(
-                'tfidf_med_vectorizer.pkl', 'nn_model.pkl')
+                'Pickle Files/tfidf_med_vectorizer.pkl', 'Pickle Files/nn_model.pkl')
             recommended_medicines_df = recommend_medicines_by_text(symptoms, loaded_tfidf_vectorizer,
                                                                    loaded_nn_model, df_medicine)
             append_med_bot(recommended_medicines_df)
