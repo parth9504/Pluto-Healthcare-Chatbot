@@ -99,9 +99,3 @@ they can also be used separately.
 
 ![Screenshot (423)](https://github.com/parth9504/Pluto-Healthcare-Chatbot/assets/127659489/f8b19e33-dc69-4f91-a7f3-ffd06a098e28)
 
-
-**Here is a detailed video demonstration**
-
-
-https://github.com/parth9504/Pluto-Healthcare-Chatbot/assets/127659489/062eddf3-09fb-40bb-80b2-183d27f06df2
-
