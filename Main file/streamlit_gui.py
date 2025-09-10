@@ -16,6 +16,7 @@ import wikipedia
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neighbors import NearestNeighbors
 import joblib
+import os
 
 
 
@@ -208,5 +209,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
