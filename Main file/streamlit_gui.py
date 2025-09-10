@@ -21,6 +21,7 @@ import os
 
 
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
@@ -209,6 +210,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
