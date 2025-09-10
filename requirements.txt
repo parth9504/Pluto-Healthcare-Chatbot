@@ -6,4 +6,3 @@ spacy
 scikit-learn
 wikipedia
 joblib
-os
