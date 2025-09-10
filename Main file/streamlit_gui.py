@@ -24,7 +24,7 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 # Get base directory (where app runs)
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.getcwd()
 
 # Paths
 PICKLE_DIR = os.path.join(BASE_DIR, "Pickle Files")
@@ -208,4 +208,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
